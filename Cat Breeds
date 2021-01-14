@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>About Us</title>
+	<link rel ="stylesheet" href="breeds.css">	
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Our Organization</h1>
+		</div>
+		<div class="sidebar">
+			<h2>Navigation</h2>
+		</div>
+		<div class="content">
+			<h2>Content</h2>
+		</div>
+	</div>
+</body>
+</html>

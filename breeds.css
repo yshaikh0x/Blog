@@ -1,0 +1,246 @@
+@import url("blog.css");
+/*mobile*/
+.breedgallery{
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	border:5px solid #6f2232;
+	grid-gap:5px;
+	margin:3px;
+	padding:3px;
+}
+.gallery{
+	width:100%;
+	height:100%;
+	border: 1px solid #6f2232;
+ }
+.label{
+	width: 90px;
+	height:90px;
+	background: #fff;
+	opacity: 0;
+	padding:3px;
+	margin:3x;
+	text-align:center;
+	
+}
+.gallery:hover .label{
+  opacity:0.6;
+  text-align:justify;
+  color:#000000;
+  font-size:20px;
+  font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+  padding:30px;	
+	opacity:.4;
+	box-shadow: 10px 10px 10px 0 rgba(100, 10, 10, 20);
+}
+
+
+#savannah{
+	background-image: url(pictures/savannah.webp);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: top;
+	width: 150px;
+}
+#himalayan{
+	background-image: url(pictures/him2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#russian{
+	background-image: url(pictures/russian.webp);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#serval{
+	background-image: url(pictures/serval.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#siamese{
+	background-image: url(pictures/siamese.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#maincoon{
+	background-image: url(pictures/mainecoon.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+	height:130px;
+}
+#scottish{
+	background-image: url(pictures/scottish.webp);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#tabby{
+	background-image: url(pictures/tabby.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#persian{
+	background-image: url(pictures/persian.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#bengal{
+	background-image: url(pictures/bengal.webp);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: left;
+	width: 150px;
+}
+#chartreux{
+	background-image: url(pictures/chartreux.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#ragdoll{
+	background-image: url(pictures/ragdoll.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#cornishrex{
+	background-image: url(pictures/cornish.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#birman{
+	background-image: url(pictures/birman.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#munchkin{
+	background-image: url(pictures/munchkin.webp);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#manx{
+	background-image: url(pictures/manx.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right;
+	width: 150px;
+}
+#norwegian{
+	background-image: url(pictures/norwegian.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#orientalsh{
+	background-image: url(pictures/orientalsh.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#jbobcat{
+	background-image: url(pictures/jbobcat.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+
+#abobcat{
+	background-image: url(pictures/abobtail.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+
+#laperm{
+	background-image: url(pictures/laperm.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#abyssinian{
+	background-image: url(pictures/abyssinian.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#burmese{
+	background-image: url(pictures/burmese.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#sibforestcat{
+	background-image: url(pictures/sibforestcat.webp);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+#sphynx{
+	background-image: url(pictures/sphynx.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 150px;
+}
+.logo{
+	height:150ox;
+	width:150px;
+	border-radius: 70%;
+	justify-self: center;
+}
+.sidebar{
+	align-content: first baseline;
+	text-align:jus;
+	line-height: 20px;
+}
+p{
+	text-align:justify;
+	padding:5px;
+	margin:5px;
+}
+@media(min-width:601px){
+	.breedgallery{
+	display:grid;
+	grid-template-columns: repeat(3,1fr;)
+	grid-template-rows:repeat(5, 10vw);
+	}
+	.gallery{
+	width:100%;
+	height:100%;
+	border: 1px solid #6f2232;
+	}
+}
+

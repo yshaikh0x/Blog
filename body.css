@@ -1,0 +1,31 @@
+@import url("blog.css");
+#decodeimg{
+	width:300px;
+	border: 3px solid #6f2232;
+	padding:5px;
+	margin:5px;
+}
+.post, .section , p{
+	text-align:justify;
+	line-height:15.5px;
+}
+.post{
+	text-decoration: underline;
+	color: #6f2232;
+	letter-spacing: 3px;
+}
+.section{
+	letter-spacing: 3px;
+}
+.logo{
+	height:150ox;
+	width:150px;
+	border-radius: 70%;
+	justify-self: center;
+	
+}
+.sidebar{
+	align-content: first baseline;
+	text-align:center;
+	line-height: 20px;
+}
